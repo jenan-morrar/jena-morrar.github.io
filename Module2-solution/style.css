@@ -1,0 +1,150 @@
+/************* Base Style ***********/
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top:40px;
+    margin-bottom: 50px;
+    font-size: 2em;
+    
+}
+p#title1 {
+    background-color: rgb(243, 128, 147);
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    width: 80px;
+    height: 30px;
+    float: right;
+    font-size: 1em;
+
+}
+p#title2{
+    background-color: rgb(231, 74, 74);
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    color: honeydew;
+    text-align: center;
+    font-weight: bold;
+    width: 80px;
+    height: 30px;
+    float: right;
+    font-size: 1em;
+    
+}
+p#title3{
+    background-color: rgb(240, 180, 101);
+    border: 1px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: bold;
+    width: 80px;
+    height: 30px;
+    float: right;
+    font-size: 1em;
+}
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    clear: both;
+    padding: 5px;
+}
+div#sec1 {
+    background-color: gray;
+    border: 1px solid black;
+    width: 370px;
+    height: 180px;
+    margin-bottom: 25px;
+    margin-left: 35Px;
+}
+div#sec2 {
+    background-color: gray;
+    border: 1px solid black;
+    width: 370px;
+    height: 180px;
+    margin-bottom: 25px;
+    margin-left: 35Px;
+}
+div#sec3 {
+    background-color: gray;
+    border: 1px solid black;
+    width: 370px;
+    height: 180px;
+    margin-bottom: 25px;
+    margin-left: 35Px;
+}
+
+/************ Desktop Screen **************/
+@media (min-width:992px){
+    #title1{
+        width: 100px;
+        height: 40px;
+    }
+    #title2{
+        width: 100px;
+        height: 40px;
+    }
+    #title3{
+        width: 100px;
+        height: 40px;
+    }
+    div{
+        width: 400px;
+        height: 200px;
+        float: left;
+        margin-right: 10Px; 
+
+    }
+}
+/************ Tablet Screen ************/ 
+@media (min-width:768px) and (max-width:991px){
+
+    #title1{
+        width: 80px;
+        height: 40px;
+    }
+    #title2{
+        width: 80px;
+        height: 40px;
+    }
+    #title3{
+        width: 80px;
+        height: 40px;
+    }
+    div{
+        width: 390px;
+        height: 200px;
+        float: left;
+        margin-right: 10Px; 
+    }
+    div#sec3{
+        width: 785px;
+        height: 180px;
+    }
+}
+/************ Mobile Screen ************/ 
+@media (max-width:767px){
+    #title1{
+        width: 80px;
+        height: 40px;
+    }
+    #title2{
+        width: 80px;
+        height: 40px;
+    }
+    #title3{
+        width: 80px;
+        height: 40px;
+    }
+    div{
+        width: 350px;
+        height: 200px;
+        float: left;
+        margin-right: 10Px; 
+    }
+}
